@@ -417,15 +417,27 @@ body {
   margin: 0 auto;
 }
 
-.privacy-link {
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-link {
   color: var(--text-muted);
   font-size: 0.9rem;
   text-decoration: none;
   transition: color 0.2s;
 }
 
-.privacy-link:hover {
+.footer-link:hover {
   color: var(--text);
+}
+
+.footer-sep {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  opacity: 0.6;
 }
 
 /* ===== Privacy Policy Page ===== */
